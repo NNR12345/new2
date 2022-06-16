@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;1,200&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;1,8..144,100&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Rubik:ital,wght@0,300;0,400;1,300;1,400&family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#top {
+  background-color: #155bd5;
+}
+
+.nav-item .active {
+  color: #fff !important;
+}
+.nav-item a {
+  color: #ccc !important;
+}
+.nav-item a:hover {
+  color: #fff !important;
+}
+
+.intro {
+  padding: 10vh 0;
+}
+.intro img {
+  border-radius: 5px;
+  width: 100%;
+}
+.intro h1 {
+  color: #fff;
+  padding-top: 15%;
+}
+.intro .pset1 {
+  color: #ccc;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+.intro .btn-primary {
+  background: #fff;
+  color: #155bd5;
+  width: 200px;
+}
+.intro .fa {
+  color: #fff;
+  font-size: 56px;
+  padding: 0px 25px;
+}
+.intro .btn1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+.intro span {
+  font-size: 20px;
+}
+
+#team {
+  padding: 20vh 0;
+}
+#team img {
+  width: 80%;
+  margin-left: 5vw;
+  height: 90%;
+}
+#team span {
+  color: #155bd5;
+}
+#team h2 {
+  font-weight: bold;
+}
+#team .btn2 {
+  background-color: #efefef;
+  padding: 15px 0 !important;
+  margin: 5vh 0;
+  border-radius: 5px;
+}
+#team .btn2 .btn-primary {
+  background-color: #fff;
+  color: #000;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 20px;
+}
+#team .btn2 .btn-primary:hover {
+  background-color: #155bd5;
+  color: #fff;
+}
+
+#brand {
+  margin: 5vh 0;
+  padding: 5vh 0;
+  background: #f8f9fa;
+}
+#brand img {
+  width: 40%;
+  height: 80%;
+  overflow: hidden;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+#brand img:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#mid .fa {
+  color: #d9232d;
+  padding-right: 5px;
+  font-size: 12px;
+}
+
+#footer {
+  background-color: #515d6a;
+  margin-top: 10vh;
+  padding: 8vh 0;
+  color: #fff;
+}
+#footer .social .fa {
+  background: #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+#footer .social .fa:hover {
+  background-color: #d9232d;
+}
+#footer .list {
+  color: #ccc;
+}
+#footer .list:hover {
+  color: #fff;
+}
+#footer input {
+  height: 7vh;
+  width: 60%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  border: none;
+}
+#footer .btn-primary {
+  height: 7vh;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border: none;
+  margin-left: -1px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#footer .subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5vh;
+}
+
+#footer1 {
+  background: #4a5562;
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+#footer1 span {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.banner {
+  background: #f8f9fa;
+  margin: 5vh 0;
+  padding: 3vh 0;
+}
+.banner h6 {
+  text-align: end;
+}
+.banner h6 span {
+  color: #d9232d;
+}
+
+#testimonials {
+  background: #f8f9fa;
+  margin: 10vh 0;
+  padding: 5vh 0;
+}
+#testimonials h6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#testimonials hr {
+  display: inline-block;
+  width: 10vw;
+  margin-left: 10px;
+  color: #d9232d;
+  height: 0.5px;
+  opacity: 1;
+  margin-top: 4vh;
+}
+#testimonials .right .fa {
+  background-color: #8795a4;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  padding: 3px 5px;
+  margin-right: 5px;
+}
+#testimonials .right .fa:hover {
+  background-color: #d9232d;
+}
+
+.box {
+  display: block;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.box img {
+  width: 100%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.box:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.sbox {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}/*# sourceMappingURL=style.css.map */
